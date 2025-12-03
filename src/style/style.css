@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #f4f4f4;
+  padding-bottom: 100px;
+  gap: 10px;
+}
+
+header h1{
+    display: flex;
+    justify-content: start;
+    background-color: rgb(96, 97, 171);
+    color: aliceblue;
+    padding: 3%;
+}
+
+nav ul{
+    list-style: none;
+    background-color: #003185;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    margin: 1rem;
+}
+ul li:hover{
+    background-color: rgb(66, 77, 204);
+}
+#galeria{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    background-color: aliceblue;
+    position:absolute;
+
+}
+img{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #b2b2b2;
+    border-radius: 10%;
+}
+#card{
+    border: 1px solid rgb(18, 41, 157);
+    border-radius: 5%;
+    position: relative;
+    color: #4d6794;
+    width: 100%;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+#card:hover{
+    background-color: rgb(203, 208, 255);
+
+}
+
+#hero{
+    display:grid;
+    gap: 10px;
+    background-color: #033c9f;
+    color: #f4f4f4;
+    justify-content: center;
+    border-radius: 2%;
+    padding: 1rem;
+}
+#titulo, #frasefinal{
+    color: #042e76;
+    background-color: aliceblue;
+    padding: 1rem;
+}
+main p{
+ padding: 1rem
+}
+
+article section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
